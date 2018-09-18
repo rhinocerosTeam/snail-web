@@ -3,7 +3,7 @@
 -->
 <template>
     <div class="timepointBox">
-        <li>9.23</li>
+        <li>{{date}}</li>
         <li v-for="t in box" :style="{height:height*(t.indexes.length)+'px'}" :class="'status'+t.flag"
             :data-index="t.indexes.toString()">{{t.text}}
         </li>
@@ -16,40 +16,55 @@
         data(){
             return {
                 length: 36,
-                content: [
-                    {
-                        id: 1,
-                        indexes: [1, 2, 3],
-                        text: "睡懒觉",
-                        flag: 1
-                    },
-                    {
-                        id: 2,
-                        indexes: [7, 8, 9],
-                        text: "睡懒觉22",
-                        flag: 2
-                    },
-                ],
-               /* box: [
-                    {id: 1, text: 's睡啦那s睡啦那几s睡啦那几s', flag: 0, indexes: [0]},
-                    {id: 2, text: 's睡啦那几', flag: 1, indexes: [1, 2, 3, 4]},
-                    {id: 3, text: 's睡啦那几', flag: 2, indexes: [5, 6, 7, 8]}
-                ],*/
                 height: 25,
-
+            }
+        },
+        /*content: [
+            {
+                id: 1,
+                indexes: [1, 2, 3],
+                text: "睡懒觉",
+                flag: 1
+            }
+        ],*/
+        props:{
+           content:{
+               type:Array,
+               default:function(){
+                   return []
+               }
+           },
+            date:{
+                type:String,
+                default:function(){
+                    return ""
+                }
             }
         },
         methods: {},
         computed:{
+            /*
+            * box: [
+                {id: 1, text: 's睡啦那s睡啦那几s睡啦那几s', flag: 0, indexes: 0},
+                {id: 2, text: 's睡啦那几', flag: 1, indexes: [1, 2, 3, 4]},
+             ]
+            * */
             box:function(){
                 let box = []
                 for(let a=0;a<36;a++){
-                    box.push({text: '', flag: 0, indexes: [a]})
+                    box.push({text: '', flag: 0, indexes: a})
                 }
+                let deleteBox = []
                 this.content.map((obj)=>{
-                    let startIndex = box.filter((bobj)=>{return bobj.indexes.some((inObj)=>{return inObj == obj.indexes[0]})}).indexes[0]
-                    box.splice(startIndex,obj.indexes.length,obj)
+                    let startIndex = obj.indexes[0]
+                    deleteBox.push(...obj.indexes.slice(1,obj.indexes.length))
+                    box.splice(startIndex,1,obj)
                 })
+
+                box = box.filter((obj)=>{
+                    return !deleteBox.includes(obj.indexes)
+                })
+
                 return  box
             }
         },
