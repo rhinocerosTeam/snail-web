@@ -1,0 +1,658 @@
+{
+    "messageData": [
+        {
+            "fanClubInfo": {
+                "isJoin": 0,
+                "fanClubId": 49,
+                "signImgUrl": "http://img.hefantv.com/20180131/c15172d0fb2b4b5c9711fafed8499151.png",
+                "fanClubName": "新增后援会，嘎嘎牛逼的后援会。别"
+            },
+            "fansCircleInfo": {},
+            "isJoin": 0,
+            "messageInfo": {
+                "category": 2,
+                "commentCount": 0,
+                "coverImg": "",
+                "coverImgHeight": 0,
+                "coverImgWidth": 0,
+                "idolFlipFlag": 0,
+                "isTop": 0,
+                "messageAbstract": "",
+                "messageId": 188418,
+                "messageTimestamp": 1533804519111,
+                "messageType": 11,
+                "parentMessage": {},
+                "peopleCount": 0,
+                "pictureUrls": [{
+                    "imgUrl": "http://img1.hefantv.com/20180809/e1142002244d49d2b14e7818c6af5407.jpg",
+                    "imgWidth": "640",
+                    "imgHeight": "1136"
+                }],
+                "postSourceType": 1,
+                "praiseCount": 13,
+                "praiseType": 0,
+                "presentCount": 0,
+                "questionFlag": 0,
+                "readContent": [{
+                        "headImg": "http://img.hefantv.com/20180714/a3eaded1aa5c43ea835f04b952a2595b.jpg",
+                        "isTalent": 0,
+                        "userId": "1100292",
+                        "userType": 1
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/default_head.png",
+                        "isTalent": 0,
+                        "userId": "1934635",
+                        "userType": 0
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/default_head.png",
+                        "isTalent": 0,
+                        "userId": "1366",
+                        "userType": 2
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20171020/50a17f11f6b34e8c8d784c9ac28031fe.jpg",
+                        "isTalent": 0,
+                        "userId": "1100175",
+                        "userType": 10
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/testerheadimg/20170713/bb783aeb93524bfdb98d4a3ec1d45a2b",
+                        "isTalent": 0,
+                        "userId": "1100494",
+                        "userType": 1
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20171208/02d96193bc044a01af609a909c64e7f5.jpg",
+                        "isTalent": 0,
+                        "userId": "1022",
+                        "userType": 1
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/default_head.png",
+                        "isTalent": 0,
+                        "userId": "1895989",
+                        "userType": 0
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20180109/a059c482a7354e3f8c7f401a77941ff0.jpg",
+                        "isTalent": 0,
+                        "userId": "1108759",
+                        "userType": 10
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20180524/81a1c6fc68dd4710aeafaf13f4cc54d1.jpg",
+                        "isTalent": 0,
+                        "userId": "1082",
+                        "userType": 2
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20180801/83c57f5921eb423ab7b15ae8e03401c5.jpg",
+                        "isTalent": 0,
+                        "userId": "1081",
+                        "userType": 2
+                    }
+                ],
+                "readCount": 646,
+                "relationUsers": [],
+                "sourceName": "盒饭LIVE",
+                "sourceType": 0,
+                "supportInfo": {
+                    "totalAmount": 0,
+                    "supportStatus": 0,
+                    "supportAmount": 0,
+                    "minSkuPrice": 0,
+                    "auditStatus": 1,
+                    "auditRemark": ""
+                },
+                "title": "就来了😁",
+                "videoLength": ""
+            },
+            "userInfo": {
+                "headImg": "http://img.hefantv.com/20180727/d2f01ab58526495b8db332b215c17afc.png",
+                "nickName": "自动化-fyp-制造数据",
+                "userType": 2,
+                "userId": "1247"
+            }
+        },
+        {
+            "fanClubInfo": {},
+            "fansCircleInfo": {},
+            "messageInfo": {
+                "category": 0,
+                "commentCount": 4,
+                "comments": [{
+                        "headImg": "http://img.hefantv.com/20170317/3302afb08566419eab2350228a93ddf6.jpg",
+                        "nickName": "机器人284",
+                        "userId": "1867364",
+                        "content": "前排",
+                        "presentId": 0,
+                        "userType": 7
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20170317/29bec0a4590543f3bf72e076b1478054.jpg",
+                        "nickName": "机器人228",
+                        "userId": "1858992",
+                        "content": "么么哒",
+                        "presentId": 0,
+                        "userType": 7
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20170419/ea6e4f5de6684595a19589bfc61d5882.jpg",
+                        "nickName": "南辞",
+                        "userId": "1669773",
+                        "content": "给你一个惊天旋转大赞！",
+                        "presentId": 0,
+                        "userType": 7
+                    }
+                ],
+                "coverImg": "http://img1.hefantv.com/20180809/4fb0eb61b7aa451ea58ad1df55f4199b.jpg",
+                "coverImgHeight": 540,
+                "coverImgWidth": 540,
+                "idolFlipFlag": 0,
+                "isTop": 0,
+                "messageId": 188422,
+                "messageTimestamp": 1533809384483,
+                "messageType": 3,
+                "parentMessage": {},
+                "peopleCount": 3,
+                "postSourceType": 1,
+                "praiseCount": 0,
+                "praiseType": 0,
+                "presentCount": 0,
+                "questionFlag": 0,
+                "readContent": [{
+                        "headImg": "http://img.hefantv.com/20170419/ea6e4f5de6684595a19589bfc61d5882.jpg",
+                        "isTalent": 0,
+                        "userId": "1669773",
+                        "userType": 7
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20180714/a3eaded1aa5c43ea835f04b952a2595b.jpg",
+                        "isTalent": 0,
+                        "userId": "1100292",
+                        "userType": 1
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/default_head.png",
+                        "isTalent": 0,
+                        "userId": "1366",
+                        "userType": 2
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20171020/50a17f11f6b34e8c8d784c9ac28031fe.jpg",
+                        "isTalent": 0,
+                        "userId": "1100175",
+                        "userType": 10
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/testerheadimg/20170713/bb783aeb93524bfdb98d4a3ec1d45a2b",
+                        "isTalent": 0,
+                        "userId": "1100494",
+                        "userType": 1
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20170419/1285bbbbd98f4c388ccbbe498bffc96f.jpg",
+                        "isTalent": 0,
+                        "userId": "1666135",
+                        "userType": 7
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20171208/02d96193bc044a01af609a909c64e7f5.jpg",
+                        "isTalent": 0,
+                        "userId": "1022",
+                        "userType": 1
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20170317/3302afb08566419eab2350228a93ddf6.jpg",
+                        "isTalent": 0,
+                        "userId": "1867364",
+                        "userType": 7
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20170317/29bec0a4590543f3bf72e076b1478054.jpg",
+                        "isTalent": 0,
+                        "userId": "1858992",
+                        "userType": 7
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20180109/a059c482a7354e3f8c7f401a77941ff0.jpg",
+                        "isTalent": 0,
+                        "userId": "1108759",
+                        "userType": 10
+                    }
+                ],
+                "readCount": 67,
+                "relationUsers": [],
+                "sourceName": "盒饭LIVE",
+                "sourceType": 0,
+                "supportInfo": {
+                    "totalAmount": 0,
+                    "supportStatus": 0,
+                    "supportAmount": 0,
+                    "minSkuPrice": 0,
+                    "auditStatus": 1
+                },
+                "title": "11111",
+                "videoLength": "00:13:07",
+                "videoPath": "http://lvodtest.hefantv.com/record/AppTest/1247hefan20180809175636_0.m3u8"
+            },
+            "userInfo": {
+                "headImg": "http://img.hefantv.com/20180727/d2f01ab58526495b8db332b215c17afc.png",
+                "nickName": "自动化-fyp-制造数据",
+                "userType": 2,
+                "userId": "1247"
+            }
+        },
+        {
+            "fanClubInfo": {},
+            "fansCircleInfo": {},
+            "messageInfo": {
+                "category": 0,
+                "commentCount": 4,
+                "comments": [{
+                        "headImg": "http://img.hefantv.com/20170317/3302afb08566419eab2350228a93ddf6.jpg",
+                        "nickName": "机器人284",
+                        "userId": "1867364",
+                        "content": "前排",
+                        "presentId": 0,
+                        "userType": 7
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20170317/29bec0a4590543f3bf72e076b1478054.jpg",
+                        "nickName": "机器人228",
+                        "userId": "1858992",
+                        "content": "么么哒",
+                        "presentId": 0,
+                        "userType": 7
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20170419/ea6e4f5de6684595a19589bfc61d5882.jpg",
+                        "nickName": "南辞",
+                        "userId": "1669773",
+                        "content": "给你一个惊天旋转大赞！",
+                        "presentId": 0,
+                        "userType": 7
+                    }
+                ],
+                "coverImg": "http://img1.hefantv.com/20180809/4fb0eb61b7aa451ea58ad1df55f4199b.jpg",
+                "coverImgHeight": 540,
+                "coverImgWidth": 540,
+                "idolFlipFlag": 0,
+                "isTop": 0,
+                "messageId": 188422,
+                "messageTimestamp": 1533809384483,
+                "messageType": 3,
+                "parentMessage": {},
+                "peopleCount": 3,
+                "postSourceType": 1,
+                "praiseCount": 0,
+                "praiseType": 0,
+                "presentCount": 0,
+                "questionFlag": 0,
+                "readContent": [{
+                        "headImg": "http://img.hefantv.com/20170419/ea6e4f5de6684595a19589bfc61d5882.jpg",
+                        "isTalent": 0,
+                        "userId": "1669773",
+                        "userType": 7
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20180714/a3eaded1aa5c43ea835f04b952a2595b.jpg",
+                        "isTalent": 0,
+                        "userId": "1100292",
+                        "userType": 1
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/default_head.png",
+                        "isTalent": 0,
+                        "userId": "1366",
+                        "userType": 2
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20171020/50a17f11f6b34e8c8d784c9ac28031fe.jpg",
+                        "isTalent": 0,
+                        "userId": "1100175",
+                        "userType": 10
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/testerheadimg/20170713/bb783aeb93524bfdb98d4a3ec1d45a2b",
+                        "isTalent": 0,
+                        "userId": "1100494",
+                        "userType": 1
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20170419/1285bbbbd98f4c388ccbbe498bffc96f.jpg",
+                        "isTalent": 0,
+                        "userId": "1666135",
+                        "userType": 7
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20171208/02d96193bc044a01af609a909c64e7f5.jpg",
+                        "isTalent": 0,
+                        "userId": "1022",
+                        "userType": 1
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20170317/3302afb08566419eab2350228a93ddf6.jpg",
+                        "isTalent": 0,
+                        "userId": "1867364",
+                        "userType": 7
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20170317/29bec0a4590543f3bf72e076b1478054.jpg",
+                        "isTalent": 0,
+                        "userId": "1858992",
+                        "userType": 7
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20180109/a059c482a7354e3f8c7f401a77941ff0.jpg",
+                        "isTalent": 0,
+                        "userId": "1108759",
+                        "userType": 10
+                    }
+                ],
+                "readCount": 67,
+                "relationUsers": [],
+                "sourceName": "盒饭LIVE",
+                "sourceType": 0,
+                "supportInfo": {
+                    "totalAmount": 0,
+                    "supportStatus": 0,
+                    "supportAmount": 0,
+                    "minSkuPrice": 0,
+                    "auditStatus": 1
+                },
+                "title": "11111",
+                "videoLength": "00:13:07",
+                "videoPath": "http://lvodtest.hefantv.com/record/AppTest/1247hefan20180809175636_0.m3u8"
+            },
+            "userInfo": {
+                "headImg": "http://img.hefantv.com/20180727/d2f01ab58526495b8db332b215c17afc.png",
+                "nickName": "自动化-fyp-制造数据",
+                "userType": 2,
+                "userId": "1247"
+            }
+        },
+        {
+            "fanClubInfo": {},
+            "fansCircleInfo": {},
+            "messageInfo": {
+                "category": 1,
+                "commentCount": 58,
+                "comments": [{
+                        "headImg": "http://img.hefantv.com/proheadimg/20180405/cb8307e7f74147a2b0f9055054087ac3",
+                        "nickName": "不怕pang的猪",
+                        "userId": "4266309",
+                        "content": "❤❤❤",
+                        "presentId": 0,
+                        "userType": 0
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/proheadimg/20180802/bdd5d1bd5d34415a89dbeef5c1b7b830",
+                        "nickName": "霸王龙爱吃炸鸡",
+                        "userId": "5010869",
+                        "content": "查杰0814出道周年快乐",
+                        "presentId": 0,
+                        "userType": 0
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/proheadimg/20180801/a277447e8db2499398303b66f8dcf5bb",
+                        "nickName": "查杰家的大魔王",
+                        "presentIcon": "http://img.hefantv.com/20180110/d933d9811c15425eac19d6a17eb32afe.png",
+                        "userId": "5007724",
+                        "content": "",
+                        "presentId": 227,
+                        "userType": 0,
+                        "presentName": "吻你"
+                    }
+                ],
+                "coverImg": "",
+                "coverImgHeight": 0,
+                "coverImgWidth": 0,
+                "idolFlipFlag": 0,
+                "isTop": 0,
+                "messageAbstract": "ksahdkfjhaskdhfkalskdl",
+                "messageId": 552665,
+                "messageTimestamp": 1533007764000,
+                "messageType": 2,
+                "parentMessage": {
+
+                },
+                "peopleCount": 0,
+                "pictureUrls": [{
+                    "imgUrl": "http://img.hefantv.com/20180731/5863657db68042aaba33ab2b5259e402.jpg",
+                    "imgWidth": "1121",
+                    "month": "",
+                    "year": "",
+                    "imgHeight": "575"
+                }],
+                "postSourceType": 1,
+                "praiseCount": 286,
+                "praiseType": 0,
+                "presentCount": 2,
+                "questionFlag": 0,
+                "readContent": [{
+                        "headImg": "http://img.hefantv.com/proheadimg/20180802/7ea8e53384164f2681527998c68e87eb",
+                        "isTalent": 0,
+                        "userId": "5010567",
+                        "userType": 0
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/proheadimg/20180808/8011154ecadb47e389a7488e93dde46e",
+                        "isTalent": 0,
+                        "userId": "5015086",
+                        "userType": 0
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/proheadimg/20180806/3ce16d7002704f8598e55d7370f1554c",
+                        "isTalent": 0,
+                        "userId": "5013900",
+                        "userType": 0
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/proheadimg/20180801/a58d9d1f63c744d58566a691db2b3315",
+                        "isTalent": 0,
+                        "userId": "5007832",
+                        "userType": 0
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/proheadimg/20180809/bdc71cf2ae0c4c7ea68b4c9781822597",
+                        "isTalent": 0,
+                        "userId": "5015449",
+                        "userType": 0
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/proheadimg/20180808/b7d83134fa0742f5a1375620d3df7030",
+                        "isTalent": 0,
+                        "userId": "5015080",
+                        "userType": 0
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/proheadimg/20180805/b5cc27934ec04eddad62ada9dad84770",
+                        "isTalent": 0,
+                        "userId": "5013216",
+                        "userType": 0
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/proheadimg/20180405/5359835831cd480291e6423f619f29be",
+                        "isTalent": 0,
+                        "userId": "4266330",
+                        "userType": 0
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/proheadimg/20180801/2c79cb25ff1049e99414f21467ff3864",
+                        "isTalent": 0,
+                        "userId": "5008053",
+                        "userType": 0
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/proheadimg/20180731/44169987247143e1b106cb1bbbe4f447",
+                        "isTalent": 0,
+                        "userId": "5007572",
+                        "userType": 0
+                    }
+                ],
+                "readCount": 12370,
+                "relationUsers": [],
+                "sourceName": "微博",
+                "sourceType": 1,
+                "supportInfo": {
+                    "totalAmount": 0,
+                    "supportStatus": 0,
+                    "supportAmount": 0,
+                    "minSkuPrice": 0,
+                    "auditStatus": 1
+                },
+                "title": "分享图片 ​​​",
+                "videoLength": "",
+                "videoPath": ""
+            },
+            "userInfo": {
+                "headImg": "http://img.hefantv.com/20180511/4103734d19ce4e8dbcd48156fdc95a8d.png",
+                "nickName": "查杰",
+                "userType": 10,
+                "userId": "10087"
+            }
+        },
+        {
+            "fanClubInfo": {},
+            "fansCircleInfo": {},
+            "messageInfo": {
+                "category": 1,
+                "commentCount": 8,
+                "comments": [{
+                        "headImg": "http://img.hefantv.com/proheadimg/20180802/e51c71e79224402d97978e7cd800c5b2",
+                        "nickName": "霸王龙爱吃炸鸡2",
+                        "userId": "5010876",
+                        "content": "查杰0814出道两周年快乐",
+                        "presentId": 0,
+                        "userType": 0
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/proheadimg/20180729/864256acae5848b58e6aba27383d8806",
+                        "nickName": "久睡成瘾♚",
+                        "userId": "5006591",
+                        "content": "今天不错，考不考虑发个博",
+                        "presentId": 0,
+                        "userType": 0
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20170421/8f27372698ec474bae0a74616d4b2289.jpg",
+                        "nickName": "上水间",
+                        "userId": "1748773",
+                        "content": "距离上一次自拍有多久了你心里没点数么",
+                        "presentId": 0,
+                        "userType": 7
+                    }
+                ],
+                "coverImg": "",
+                "coverImgHeight": 0,
+                "coverImgWidth": 0,
+                "idolFlipFlag": 0,
+                "isTop": 0,
+                "messageAbstract": "",
+                "messageId": 521220,
+                "messageTimestamp": 1530526198000,
+                "messageType": 2,
+                "parentMessage": {
+
+                },
+                "peopleCount": 0,
+                "pictureUrls": [{
+                    "imgUrl": "http://img.hefantv.com/20180702/81ace74cc32f482ab1afab1e4ea1e41d.jpg",
+                    "imgWidth": "3380",
+                    "month": "",
+                    "year": "",
+                    "imgHeight": "4096"
+                }],
+                "postSourceType": 1,
+                "praiseCount": 284,
+                "praiseType": 0,
+                "presentCount": 0,
+                "questionFlag": 0,
+                "readContent": [{
+                        "headImg": "http://img.hefantv.com/proheadimg/20180802/7ea8e53384164f2681527998c68e87eb",
+                        "isTalent": 0,
+                        "userId": "5010567",
+                        "userType": 0
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/proheadimg/20180801/b427629908974f96934c7ab9fccb5830",
+                        "isTalent": 0,
+                        "userId": "5008015",
+                        "userType": 0
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/proheadimg/20180801/552c7972926249a8933be94b0b2c0ac2",
+                        "isTalent": 0,
+                        "userId": "5008004",
+                        "userType": 0
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/proheadimg/20180801/a58d9d1f63c744d58566a691db2b3315",
+                        "isTalent": 0,
+                        "userId": "5007832",
+                        "userType": 0
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/proheadimg/20180804/ef57845fc62d423893eea7c86cef37d8",
+                        "isTalent": 0,
+                        "userId": "5012555",
+                        "userType": 0
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/proheadimg/20180805/45d0390d2a2a467b82cac53ba9f08f8e",
+                        "isTalent": 0,
+                        "userId": "5013137",
+                        "userType": 0
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/default_head.png",
+                        "isTalent": 0,
+                        "userId": "5007858",
+                        "userType": 0
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/proheadimg/20180801/35d5847c7c7644f2abe7f153b3fa8e21",
+                        "isTalent": 0,
+                        "userId": "5007869",
+                        "userType": 0
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/proheadimg/20180801/226543eb66ff48e88ab84a5af10bcb8a",
+                        "isTalent": 0,
+                        "userId": "5008089",
+                        "userType": 0
+                    },
+                    {
+                        "headImg": "http://img.hefantv.com/20180801/98ffed1449cb48198e2d1cb04de743b4.jpg",
+                        "isTalent": 0,
+                        "userId": "4266522",
+                        "userType": 0
+                    }
+                ],
+                "readCount": 14880,
+                "relationUsers": [],
+                "sourceName": "微博",
+                "sourceType": 1,
+                "supportInfo": {
+                    "totalAmount": 0,
+                    "supportStatus": 0,
+                    "supportAmount": 0,
+                    "minSkuPrice": 0,
+                    "auditStatus": 1
+                },
+                "title": "...",
+                "videoLength": "",
+                "videoPath": ""
+            },
+            "userInfo": {
+                "headImg": "http://img.hefantv.com/20180511/4103734d19ce4e8dbcd48156fdc95a8d.png",
+                "nickName": "查杰",
+                "userType": 10,
+                "userId": "10087"
+            }
+        }
+    ]
+}

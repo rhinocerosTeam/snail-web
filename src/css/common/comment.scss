@@ -1,0 +1,269 @@
+
+.comment{
+    width: 800px;
+    background: #fcfcfc;
+
+    > .buildCont{
+        height: 86px;
+        padding-left: 92px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #f0f0f0;
+
+        > .commentBuild{
+            display: block;
+            float: left;
+            height: 42px;
+            margin-top: 22px;
+            margin-right: 10px;
+        }
+
+        > p{
+            float: left;
+            color: #999;
+            font-size: 14px;
+            line-height: 86px;
+            letter-spacing: 1px;
+            margin-right: 12px;
+        }
+
+        > .downLoadBox{
+            float: left;
+            width: 90px;
+            height: 30px;
+            padding-top: 30px;
+            position: relative;
+
+            > img{
+                display: block;
+                width: 90px;
+                cursor: pointer;
+            }
+
+            > .codeBox{
+                width: 95px;
+                height: 95px;
+                position: absolute;
+                top: 30px;
+                right: -105px;
+                border: 1px solid #e6e6e6;
+                box-shadow: 0px 5px 12px #e6e6e6;
+                border-radius: 4px;
+                padding: 8px;
+                box-sizing: border-box;
+                background: #fff;
+                display: none;
+
+                > img{
+                    display: block;
+                    width: 100%;
+                }
+            }
+
+            &:hover{
+                > .codeBox{
+                    display: block;
+                }
+            }
+        }
+    }
+
+    > .commentList{
+        padding: 20px 20px 0 20px;
+
+        > li{
+            border-bottom: 1px solid #f0f0f0;
+
+            > .headBox{
+                width: 30px;
+                height: 40px;
+                float: left;
+                padding-top: 20px;
+                position: relative;
+                cursor: pointer;
+
+                > img{
+                    display: block;
+                    width: 30px;
+                    height: 30px;
+                    background: #c2c2c2;
+                    border-radius: 50%;
+                }
+
+                > span{
+                    position: absolute;
+                    right: -4px;
+                    bottom: 8px;
+                }
+            }
+
+            > .commentContBox{
+                float: left;
+                width: 730px;
+
+                .commentCont{
+                    width: 100%;
+                    padding: 20px 0 0 20px;
+                    box-sizing: border-box;
+
+                    > .contextBox{
+                        > span{
+                            color: #666;
+                            font-size: 14px;
+                            line-height: 25px;
+
+                            > b{
+                                font-weight: normal;
+                                > img{
+                                    display: inline-block;
+                                    height: 22px;
+                                    margin-bottom: -5px;
+                                }
+                            }
+                        }
+                        > .nickname{
+                            color: #ff2553;
+                        }
+                    }
+                    > .timeBox{
+                        margin-top: 10px;
+                        line-height: 34px;
+                        font-size: 14px;
+                        > .time{
+                            font-size: 14px;
+                            color: #999;
+                            float: left;
+                        }
+
+                        > .zanBox{
+                            float: right;
+
+                            > .zan{
+                                display: block;
+                                float: right;
+                                color: #999;
+                                margin-top: 8px;
+                                cursor: pointer;
+
+                                i{
+                                    float: right;
+                                    display: inline-block;
+                                    width: 18px;
+                                    height: 16px;
+                                    margin-right: 5px;
+                                    background: url("../../assets/components/common/messageInfo/sp_mess.png") no-repeat 0px -32px;
+                                }
+                                b{
+                                    float: right;
+                                    height: 16px;
+                                    line-height: 16px;
+                                    font-weight: normal;
+                                }
+                            }
+
+                            > .zaned{
+                                i{
+                                    background-position: -21px -32px;
+                                }
+                            }
+                            > .report{
+                                display: none;
+                                cursor: pointer;
+                                color: #333;
+                                float: right;
+                                height: 16px;
+                                line-height: 16px;
+                                border-right: 1px solid #c8c8c8;
+                                padding-right: 20px;
+                                margin-right: 20px;
+                                margin-top: 8px;
+                            }
+                        }
+
+                        &:hover{
+                            > .zanBox{
+                                > .report{
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .commentReply{
+                    background: #f8f8f8;
+                    padding-right: 20px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        li:last-child{
+            border: none;
+        }
+    }
+
+    > .allComment{
+        height: 52px;
+        text-align: center;
+        line-height: 52px;
+        border-top: 1px solid #f0f0f0;
+        font-size: 14px;
+        color: #333;
+
+        > span{
+            display: block;
+            width: 70px;
+            height: 52px;
+            margin: 0 auto;
+            cursor: pointer;
+            > b{
+                font-weight: normal;
+                line-height: 52px;
+                float: left;
+            }
+            > img{
+                float: left;
+                display: block;
+                width: 6px;
+                height: 10px;
+                margin-top: 21px;
+                margin-left: 6px;
+            }
+        }
+    }
+
+    > .loadComment{
+        height: 52px;
+        text-align: center;
+        line-height: 52px;
+        border-top: 10px solid #f8f8f8;
+        font-size: 14px;
+        color: #333;
+
+        > span{
+            display: block;
+            width: 108px;
+            height: 52px;
+            margin: 0 auto;
+
+            > b{
+                font-weight: normal;
+                line-height: 52px;
+                float: left;
+            }
+            > img{
+                float: left;
+                display: block;
+                height: 20px;
+                width: 20px;
+                margin-top: 16px;
+                margin-right: 10px;
+            }
+        }
+
+        .loadBar{
+            margin: 0;
+            padding: 0;
+        }
+    }
+}

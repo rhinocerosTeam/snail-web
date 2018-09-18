@@ -1,0 +1,96 @@
+
+.footerBox{ width: 100%; height: 130px; padding: 40px 0px; display: block; background: #f0f0f0;
+
+  >.fontCont{ width: 1180px; height: 100%; display: block; margin: 0 auto;
+
+    >div{ display: block; height: 100%; float: left;}
+
+    >.line{ width: 1px; height: 130px; background: #e6e6e6; margin: 0px 20px; display: block; float: left;}
+
+
+    >.LogoBox{
+      >div{ width: 100%; height: 65px; display: block;
+        >img{display: block; float: left;}
+      }
+      >.xyjh{
+        >img{ height: 38px; margin: 13.5px 0px;}
+        >span{ font-size: 14px; height: 38px; display: block; float: left; margin: 13.5px 10px; line-height: 38px; color: #999999; }
+      }
+      >.hyxd{
+        >img{ height: 27px; margin: 19px 0px;}
+      }
+    }
+
+
+    >.contBox{ min-width: 646px;
+      >div{ width: 100%; display: block;}
+
+      >.footNavBox{ height: 20px; margin: 10px 0px;
+        >ul{ width: 100%; height: 100%; display: block;
+          >li{ height: 100%; display: block; float: left; padding-right: 30px; border-right: 1px solid #c8c8c8; margin-right: 30px;
+            >span{ display: block; cursor: pointer; font-size: 14px; color: #333333; line-height: 20px;
+              &:hover{ color:#ff2553;}
+            }
+          }
+          >li:last-child{ border-right: 1px solid rgba(0,0,0,0); }
+
+        }
+      }
+
+      >.footInfoBox{
+        >p{ width: 100%; height: 30px; display: block; font-size: 12px; color: #999999; line-height: 30px; overflow: hidden;
+          >span{ height: 30px; display: block; float: left;
+            >a{ cursor: pointer; color: #999999;
+              &:hover{ color: #ff2553; }
+            }
+          }
+          >.line{ width: 1px; height: 12px !important; background: #c8c8c8; margin:9px 12px;}
+          >.icon_record{ padding-left:20px; background: url("../../assets/img/common/icon_putOnRecord.png") no-repeat left center; background-size: 16px 16px; }
+
+          >.icon_jww{ padding-left: 20px; background: url("../../assets/img/common/icon_jinwangwen.png") no-repeat left center; background-size: 18px 18px;}
+        }
+      }
+
+
+    }
+
+
+    >.codeBox{ width: 240px;
+
+      >.codeImg{ width: 96px; height: 100%; padding-right: 16px; display:block; float: left;
+        >div{ width: 80px; height: 80px; display: block; border: 1px solid #e6e6e6; padding: 7px; background: #ffffff; border-radius: 5px;
+          >img{ width: 100%; display: block;}
+        }
+        >p{ width: 100%; display: block; margin-top: 5px; font-size: 12px; color: #333333; line-height: 14px; text-align: center;
+          >span{ width: 100%; display: block;}
+        }
+      }
+
+      >.btnBox{ width: 120px; display: block; float: left;
+        >.btnlist{ padding: 7px 0px;
+          >div{ width: 118px; height: 30px; display: block; border: 1px solid #c8c8c8; border-radius: 15px; cursor: pointer; position: relative;
+            >span{ width: 70px; text-align: center; font-size: 13px; color: #646464; padding-left: 30px; line-height: 30px; display: block; margin: 0 auto; background: url("../../assets/img/common/icon_footBtnIcon.png") no-repeat left center; background-size: 30px 60px;}
+            >.wechat{ background-position: left top; }
+            >.webo{ background-position: left bottom; }
+            >.weixinMaxEwm{ width:129px; left: -140px; top: -30px;
+              position: absolute; z-index: 1; display: none; border-radius: 5px; box-shadow: 0px 0px 10px rgba(0,0,0,0.2); }
+            &:hover{
+              /*border: 1px solid #ff2553;
+              >span{ color: #ff2553; }*/
+              >.weixinMaxEwm{ display: block !important;}
+            }
+          }
+        }
+      }
+
+    }
+
+
+
+
+
+  }
+
+}
+
+

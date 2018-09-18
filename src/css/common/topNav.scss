@@ -1,0 +1,138 @@
+
+.navBox{
+  user-select: none;
+  width: 100%;
+  height:79px;
+  display: block;
+  position: fixed;
+  top: 0%;
+  border-bottom: 1px solid #f0f0f0;
+  background: #ffffff;
+  z-index:2000;
+
+  * {box-sizing: content-box !important;};
+
+  >.contBox{ width: 1180px; display: block; height: 100%; margin: 0 auto;
+
+    >div{ float: left;}
+
+    /** 顶部导航 logo 样式 **/
+    >.logoBox{ height: 40px; display: block; padding: 20px 0px; margin-right: 50px;
+      >img{ height: 100%; display: block; cursor: pointer;}
+    }
+
+    /** 一级导航栏样式 **/
+    >.firstNavBox{ height: 20px; display: block; padding: 30px 0px;
+      >ul{ height: 100%; display: block; overflow: hidden;
+        >li{ height: 100%; display: block; float: left; margin: 0px 20px; cursor: pointer; color: #666666; font-size: 14px; line-height: 20px;
+          &:hover{ color: #ff6686;}
+        }
+        >.selOn{ color: #ff6686 !important; }
+      }
+    }
+
+    >.floatRightBox{ height: 30px; margin: 25px 0px; display: block; float: right;
+
+      >div{ display: block; float: left;}
+
+      /** 搜索栏样式 **/
+      >.searchBox{ width: 220px; height: 28px; padding: 0px 14px; border: 1px solid #ebebeb; border-radius: 14px; background: #fbfbfb; margin-right: 30px;
+        >.icon{ width:20px; height: 100%; display: block; float: left; background: url("../../assets/img/common/icon_searchFilter.png") no-repeat center center; background-size: 20px 20px; }
+        >.searchInput{ width:190px; height: 100%; padding-left: 10px; display: block; outline:none; background:none; float: left; font-size: 14px; line-height: 28px; }
+      }
+
+
+      /** 登录 注册 */
+      >.topNavLoginBox{ height: 30px; line-height: 30px;
+        >div{
+          >span{
+            cursor: pointer;
+            &:hover{ color: #ff6686; }
+          }
+        }
+        >.alrLogin{ width: 30px; height: 30px; display: block; background: #cdcdcd; position:relative;
+          border-bottom-left-radius: 15px;
+          border-top-left-radius: 15px;
+          border-top-right-radius: 15px;
+          >.userHeadBox{ width: 30px; height: 30px; display: block; background: #ffffff; border-radius: 50%; border: 2px solid #ffffff; position: absolute; z-index: 5; top: -2px; left: -2px;
+            >.userhead{ width: 28px; height: 28px; border: 1px solid #c9c9c9; position: absolute; z-index: 5; top: 0%; left: 0%; border-radius: 50%; overflow: hidden; background-size: cover !important; cursor: pointer;}
+          }
+          >.hoverBox{ width: 40px; position: absolute; z-index: 1; top: 0%; right: 0%; display: none; padding-top: 40px;
+            >.userInfoBox{
+              position: absolute; right: 0%; top: 40px;
+              width: 140px; padding: 6px 1px 1px 1px;
+              z-index: 10; box-shadow:0px 0px 8px rgba(200,200,200,0.5);
+              background: #ffffff; border-radius: 5px; display: block;
+              >p{ width: 100%; display: block; overflow: hidden;
+                >span{ display: block; height: 100%; font-size: 14px; line-height: 30px; }
+                >.lf{ color: #666666; float: left; margin-left: 10px; }
+                >.rt{ color: #333333; float: right; margin-right:10px;}
+              }
+              >.unLogin{ border-top: 1px solid #f0f0f0; margin-top: 5px;
+                >.unLoginBtn{ margin: 1px; height: 30px; border-bottom-left-radius: 5px; position: relative; border-bottom-right-radius: 5px; text-align: center; cursor: pointer;
+                  >span{ color: #333333; display: block; height: 30px; padding-left: 20px; position: absolute; z-index: 1; left: 50%; transform: translate(-50%,0%); -webkit-transform: translate(-50%,0%); background: url("../../assets/img/common/icon_unloginBtn.png") no-repeat left center; background-size: 20px 20px; }
+                  &:hover{
+                    background: #f5f5f5;
+                  }
+                }
+              }
+            }
+          }
+          &:hover{
+            >.hoverBox{ display: block; }
+          }
+        }
+      }
+
+
+      >.line{ width: 1px; height: 14px; background: #e6e6e6; margin: 8px 20px; display: block; float: left;}
+
+      /** 下载盒饭 **/
+      >.downLoadBox{ height: 30px; display: block; float: left; position: relative;
+        >.text{  padding:0px 10px 0px 25px;
+          background: url("../../assets/img/common/icon_download.png") no-repeat;
+          background-size: 20px 40px;
+          background-position: 0px 0px;
+          cursor: pointer; font-size: 14px; line-height: 30px; }
+        >.selOn{ color: #ff6686 !important; background-position: 0px -20px; }
+
+        >.code{ width:148px; height:148px; padding: 8px; border:1px solid #f0f0f0;  position: absolute; z-index: 10; box-shadow:0px 3px 10px rgba(60,60,60,0.2); background: #ffffff; border-radius: 5px; display: none; top:60px; left: 50%; transform: translate(-50%,0%); -webkit-transform: translate(-50%,0%);
+          >img{ width: 100%; display: block; }
+        }
+        &:hover{
+          .text{ color: #ff6686 !important; background-position: 0px -20px; }
+        }
+      }
+    }
+  }
+
+
+  .fixedBox{ width: 100%; height: 100%; display: none; position: fixed; top: 0%; left: 0%; }
+
+  /** 登录弹层样式 **/
+  >.loginPopBox{ z-index: 1500; background: rgba(0,0,0,0.5); display: none;
+    >.loginblock{ top: 50%; left: 50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); }
+  }
+
+  /** 消息弹出 提示框 **/
+  >.msgPopBox{ z-index: 1550; -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    >.msgBox{ padding: 20px; max-width: 300px; background: rgba(0,0,0,0.7); position: absolute; z-index: 1; top: 50%; left: 50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); border-radius: 10px;
+      >span{ width: 100%; line-height: 30px; font-size: 14px;  color: #ffffff;}
+    }
+  }
+
+  /** 回到顶端 **/
+  >.gotoTopBox{ width:1180px; height:1px; display: block; position:fixed; z-index: 200; bottom: 0%; left: 0%; right: 0%; margin: 0 auto;
+
+    >.btns{ width: 40px; height: 40px; display: block; background: #e6e6e6; border-radius: 5px; position: absolute; bottom: 220px; right:-40px; cursor: pointer;
+      >span{ width: 100%; height: 100%; display: block; background: url("../../assets/img/common/icon_gotoTopArrow.png") no-repeat center center; background-size:26px 15px; }
+    }
+
+  }
+
+
+}
+
