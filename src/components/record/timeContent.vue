@@ -47,7 +47,7 @@
                     box.push({text: '', flag: 0, indexes: [a]})
                 }
                 this.content.map((obj)=>{
-                    let startIndex = obj.indexes[0]
+                    let startIndex = box.filter((bobj)=>{return bobj.indexes.some((inObj)=>{return inObj == obj.indexes[0]})}).indexes[0]
                     box.splice(startIndex,obj.indexes.length,obj)
                 })
                 return  box
@@ -55,14 +55,14 @@
         },
         mounted(){
 
-            setTimeout(()=>{
-                this.content.push({
-                    id: 2,
-                    indexes: [13,14,15],
-                    text: "睡懒觉33",
-                    flag: 2
-                })
-            },2000)
+//            setTimeout(()=>{
+//                this.content.push({
+//                    id: 2,
+//                    indexes: [13,14,15],
+//                    text: "睡懒觉33",
+//                    flag: 2
+//                })
+//            },2000)
 
         },
         watch: {}
