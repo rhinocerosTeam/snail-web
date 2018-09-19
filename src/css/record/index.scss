@@ -17,23 +17,10 @@
 
 .timePointContainer {
 
-  .calContainer,.titleContainer {
-    width: 1200px;
-    span{
-      width:100px;
-      height:25px;
-      line-height: 25px;
-      float: left;
-      border-right:1px solid #eee;
-      border-bottom:1px solid #eee;
-    }
-    &:after{
-      content: '';
-      display: block;
-      clear: both;
-    }
+  .timepointBox,.timeTitleBox {
+    width: 150px;
+    float: left;
   }
-
   .ui-selecting {
     background: #FECA40 !important;
   }
@@ -43,15 +30,13 @@
   }
   li {
     list-style: none;
-    width: 25px;
+    width: 150px;
     height: 25px;
     border-right: 1px solid #dad6d6;
     border-bottom: 1px solid #dad6d6;
     text-align: center;
     line-height: 25px;
     box-sizing: border-box;
-    display:block;
-    float: left;
   }
   .status1 {
     background-color: #00a0e9;

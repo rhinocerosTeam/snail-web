@@ -2,7 +2,11 @@
     <div class="cont">
         <ul class="timePointContainer">
             <time-point></time-point>
-            <time-Content v-for="obj in recordArray" :content="obj.content" :date="obj.date"></time-Content>
+            <div v-for="obj in recordArray" class="timepointBox">
+                <span>{{obj.date}}</span>
+                <item :content="obj.content"></item>
+            </div>
+            <!--<time-Content v-for="obj in recordArray" :content="obj.content" :date="obj.date"></time-Content>-->
         </ul>
         <ul class="rightMenu">
             <li @click="addRecord()">汇报完成情况</li>
@@ -12,11 +16,13 @@
 </template>
 <script>
     import timePoint from '@components/record/timePoint'
-    import timeContent from '@components/record/timeContent.vue'
+    import item from '@components/common/item.vue'
+    import selectableM from '@components/mixin/selectable.js'
     require('webpack-jquery-ui/selectable');
-    import '@css/plan/index.scss'
+    import '@css/record/index.scss'
     import '@css/common/common.scss'
     export default {
+        mixins: [selectableM],
         data(){
             return {
                 recordArray: [
@@ -46,35 +52,29 @@
                     }
                 ],
                 showResetBtn: false
-
             }
         },
         components: {
             timePoint,
-            timeContent
+            item
         },
         methods: {
             addRecord(){
-                let indexes = []
-                let timepointBoxIndex = $(".timepointBox").index($(".ui-selected").parent())
-                $(".ui-selected").each(function () {
-                    var indexStr = $(this).attr("data-index");
-                    let indexSort = indexStr.split(",")
-                    indexSort = indexSort.map((iObj) => {
-                        return parseInt(iObj)
-                    })
-                    indexes.push(...indexSort)
-                });
-                $(".timePointContainer > div li").removeClass("ui-selected")
+
+                let indexes = this.getIndexes_mixin()
+                let timepointBoxIndex = $(".timepointBox").index($(".ui-selected").parent().parent())
+
+
                 this.recordArray[timepointBoxIndex].content.push({
                     id: 1,
                     indexes: indexes,
                     text: "无名氏",
                     flag: 2
                 })
+                this.clearSelected_mixin()
             },
             reset(){
-                let timepointBoxIndex = $(".timepointBox").index($(".ui-selected").parent())
+                let timepointBoxIndex = $(".timepointBox").index($(".ui-selected").parent().parent())
                 let id = $(".ui-selected").attr("data-id")
                 let contentSort = this.recordArray[timepointBoxIndex].content
                 contentSort.splice(contentSort.findIndex((obj)=>{return obj.id == id}),1)
@@ -82,56 +82,7 @@
             }
         },
         mounted(){
-            this.$nextTick(() => {
-                let _this = this
-                $(function () {
 
-                    document.oncontextmenu = function () {
-                        return false;
-                    }
-
-                    $(document).mousedown(function (e) {
-                        var key = e.which; //获取鼠标键位
-                        if (key == 3)  //(1:代表左键； 2:代表中键； 3:代表右键)
-                        {
-                            //获取右键点击坐标
-                            var x = e.clientX;
-                            var y = e.clientY;
-
-                            var selectedNum = $(".ui-selected").length
-
-                            if (selectedNum < 1) {
-                                return
-                            }
-
-                            _this.showResetBtn = false
-                            if (selectedNum == 1 && $(".ui-selected").attr("data-id")) {
-                                _this.showResetBtn = true
-                            }
-
-                            $(".rightMenu").show().css({left: x, top: y});
-
-
-                        }
-                    });
-
-                    //点击任意部位隐藏
-                    $(document).click(function () {
-                        $(".rightMenu").hide();
-                    })
-
-                    $(".timePointContainer > div").selectable({
-                        start: function () {
-                            $(".rightMenu").hide();
-                            $(".timePointContainer > div li").removeClass("ui-selected")
-                            console.log('star')
-                        },
-                        stop: function () {
-                            console.log('stop')
-                        }
-                    });
-                });
-            })
 
         }
     }

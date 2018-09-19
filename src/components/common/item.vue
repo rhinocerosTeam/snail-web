@@ -11,7 +11,7 @@
 */
 -->
 <template>
-    <div>
+    <div class="itemBox">
         <li v-for="t,index in box" :style="styleUI(t)" :class="'status'+t.flag"
             :data-index="t.indexes.toString()" :data-id="t.id" :key="'timepoint_'+index+Math.random()*10">{{t.text}}
         </li>
@@ -61,7 +61,8 @@
                 if(this.type == ITEM_TYPE.TIMEPOINT){
                     return {"height":this.height*(data.indexes.length)+'px'}
                 }else{
-                    return {"width":this.width*(data.indexes.length)+'px'}
+                    //return {"width":this.width*(data.indexes.length)+'px'}
+                    return {}
                 }
             }
         },
@@ -77,16 +78,24 @@
                 for (let a = 0; a < this.itemNum; a++) {
                     box.push({text: '', flag: 0, indexes: a})
                 }
-                let deleteBox = []
-                this.content.map((obj) => {
-                    let startIndex = obj.indexes[0]
-                    deleteBox.push(...obj.indexes.slice(1, obj.indexes.length))
-                    box.splice(startIndex, 1, obj)
-                })
 
-                box = box.filter((obj) => {
-                    return !deleteBox.includes(obj.indexes)
-                })
+                // 时间点的话  实现合并单元格
+                if(this.type == ITEM_TYPE.TIMEPOINT){
+                    let deleteBox = []
+                    this.content.map((obj) => {
+                        let startIndex = obj.indexes[0]
+                        deleteBox.push(...obj.indexes.slice(1, obj.indexes.length))
+                        box.splice(startIndex, 1, obj)
+                    })
+                    box = box.filter((obj) => {
+                        return !deleteBox.includes(obj.indexes)
+                    })
+                }else{
+                    this.content.map((obj) => {
+                        let startIndex = obj.indexes
+                        box.splice(startIndex, 1, obj)
+                    })
+                }
 
                 return box
             }

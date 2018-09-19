@@ -11,9 +11,10 @@
 */
 -->
 <template>
-    <div>
-        <li v-for="">
-
+    <div class="titleContainer">
+        <span>计划项</span>
+        <li v-for="day in titles">
+            {{day}}
         </li>
     </div>
 </template>
@@ -21,8 +22,11 @@
     export default {
         data(){
             return {
-                titles:[1,2,3,]
+                titles:[]
             }
+        },
+        mounted(){
+            for(let i=0;i<31;i++) this.titles.push(i+1)
         }
     }
 </script>
