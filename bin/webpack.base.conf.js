@@ -137,6 +137,7 @@ var config = {
             "@src": path.resolve(__dirname, "../src"),
             "@mockJson": path.resolve(__dirname, "../static/mockJson"),
             "@components": path.resolve(__dirname, "../src/components"),
+            "@constant": path.resolve(__dirname, "../src/constant"),
             "@html": path.resolve(__dirname, "../src/html"),
             "@css": path.resolve(__dirname, "../src/css"),
             "@share": path.resolve(__dirname, "../../hefantv_share"),

@@ -6,21 +6,15 @@
 * @Description: 描述
 * @Query: 页面参数
 * @Props: 组件参数
-* @Remark:
+* @Remark: 
     - 备注一
 */
 -->
 <template>
-    <ul>
+    <div>
 
-    </ul>
+    </div>
 </template>
 <script>
-    export default {
-        data(){
-            return {
 
-            }
-        }
-    }
 </script>

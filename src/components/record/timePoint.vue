@@ -2,7 +2,7 @@
 时间点
 -->
 <template>
-    <div class="timepointBox">
+    <div class="timeTitleBox">
         <li>时间点</li>
         <li v-for ="t in titles">{{t}}</li>
     </div>

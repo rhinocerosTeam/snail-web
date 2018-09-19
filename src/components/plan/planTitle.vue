@@ -6,20 +6,22 @@
 * @Description: 描述
 * @Query: 页面参数
 * @Props: 组件参数
-* @Remark:
+* @Remark: 
     - 备注一
 */
 -->
 <template>
-    <ul>
+    <div>
+        <li v-for="">
 
-    </ul>
+        </li>
+    </div>
 </template>
 <script>
     export default {
         data(){
             return {
-
+                titles:[1,2,3,]
             }
         }
     }

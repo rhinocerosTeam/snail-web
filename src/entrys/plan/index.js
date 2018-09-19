@@ -2,7 +2,7 @@
  * Created by songpeilan on 2018/9/14.
  */
 
-import RecordComp from '@components/record/app'
+import planComp from '@components/plan/app'
 import initVue from '@utils/newVue'
 
-initVue(RecordComp)
+initVue(planComp)

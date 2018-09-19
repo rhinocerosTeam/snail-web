@@ -4,12 +4,10 @@
 <template>
     <div class="timepointBox">
         <li>{{date}}</li>
-        <li v-for="t in box" :style="{height:height*(t.indexes.length)+'px'}" :class="'status'+t.flag"
-            :data-index="t.indexes.toString()">{{t.text}}
+        <li v-for="t,index in box" :style="{height:height*(t.indexes.length)+'px'}" :class="'status'+t.flag"
+            :data-index="t.indexes.toString()" :data-id="t.id" :key="'timepoint_'+index+Math.random()*10">{{t.text}}
         </li>
     </div>
-
-
 </template>
 <script>
     export default{
@@ -70,14 +68,6 @@
         },
         mounted(){
 
-//            setTimeout(()=>{
-//                this.content.push({
-//                    id: 2,
-//                    indexes: [13,14,15],
-//                    text: "睡懒觉33",
-//                    flag: 2
-//                })
-//            },2000)
 
         },
         watch: {}
