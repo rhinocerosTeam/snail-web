@@ -1,19 +1,4 @@
 
-.cont {
-  .rightMenu {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
-    width: 120px;
-    background-color: #fff;
-    line-height: 40px;
-    text-align: center;
-    li{
-      border:1px solid red;
-    }
-  }
-}
 
 .timePointContainer {
 
@@ -28,8 +13,9 @@
     background: #F39814 !important;
     color: white;
   }
-  li {
+  .rheader,li {
     list-style: none;
+    display: block;
     width: 150px;
     height: 25px;
     border-right: 1px solid #dad6d6;

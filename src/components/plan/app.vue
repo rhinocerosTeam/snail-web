@@ -8,7 +8,8 @@
             </div>
         </ul>
         <ul class="rightMenu">
-            <li @click="addRecord()">汇报完成情况</li>
+            <li @click="addRecord()">标记为计划时间</li>
+            <li @click="addRecord()">标记为完成时间</li>
             <li class="resetBtn" @click="reset()" v-show="showResetBtn">重置</li>
         </ul>
     </div>

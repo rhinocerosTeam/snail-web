@@ -3,7 +3,7 @@
         <ul class="timePointContainer">
             <time-point></time-point>
             <div v-for="obj in recordArray" class="timepointBox">
-                <span>{{obj.date}}</span>
+                <span class="rheader">{{obj.date}}</span>
                 <item :content="obj.content"></item>
             </div>
             <!--<time-Content v-for="obj in recordArray" :content="obj.content" :date="obj.date"></time-Content>-->
